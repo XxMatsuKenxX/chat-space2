@@ -8,6 +8,7 @@ Bundler.require(*Rails.groups)
 
 module ChatSpace
   class Application < Rails::Application
+    #不要なファイルの作成防止
     config.generators do |g|
       g.stylesheets false
       g.javascripts false

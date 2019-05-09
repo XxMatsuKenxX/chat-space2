@@ -1,3 +1,4 @@
-class MessagesController < ActionController::Base
-def index
+class MessagesController < ApplicationController
+  def index
+  end
 end
